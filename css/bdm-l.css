@@ -33,8 +33,9 @@ a {
 button {
     outline: none;
     color: #03e9f4;                 /* good color with dark mode */
-    border: none;
+    border: 1px solid transparent;
     background-color: #191919;
+    transition: all .3s ease-in-out
 }
 button:hover,#btnon {
     background-color: #03e9f4;
